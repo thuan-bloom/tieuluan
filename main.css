@@ -1,0 +1,266 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1610px;
+    }
+}
+
+header {
+    display: flex;
+    padding: 20px 0;
+}
+
+.header-input {
+    height: auto;
+    width: 300px;
+}
+
+.list-menu {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.list-menu > li > a { 
+    padding: 20px 0;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.list-menu > li:hover > a {
+    text-decoration: underline;
+    color: #3bb77e;
+}
+
+.section-background {
+    padding-top: 5rem;
+    max-width: 1610px;
+    margin: auto;
+}
+
+.background-image {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.container-background {
+    padding: 0 10px;
+    position: relative;
+}
+
+.background-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    padding: 0 50px;
+}
+
+.background-content > p {
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 990px) {
+    .background-content > p {
+        font-size: 2.6em;
+    }
+}
+
+
+/* Featured Categories */
+
+.featured-category-section {
+    padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .featured-category-section {
+        padding: 50px 0;
+    }
+}
+
+.wrapper {
+    display: flex;
+    overflow: -moz-scrollbars-none;
+    overflow-x: scroll;
+}
+
+.title-wrapper {
+    margin-bottom: 4.4rem;
+}
+
+.category-title {
+    font-size: 32px;
+    margin: 0;
+    font-size: 700;
+}
+
+.card-item {
+    background-color: #fff3ff;
+    font-size: 14px;
+    padding: 2rem 0;
+    width: 136px;
+    margin-right: 24px;
+    
+    position: relative;
+    border-radius: 1rem;
+    border: 1px solid #F4F6FA;
+    text-align: center;
+    flex-shrink: 0
+}
+
+@media screen and (max-width: 990px) {
+    .wrapper > .card-item {
+        width: 304px;
+    }
+}
+
+.card-item > a {
+    text-decoration: none;
+    transition-duration: .2s;
+    color: rgb(37, 61, 78);
+}
+
+.card-media {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-media img {
+    width: 80px;
+}
+
+/* Banner Section */
+
+.banner-section {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 46px;
+}
+
+
+.grid {
+    margin: 0 -15px;
+    min-height: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.grid-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+
+.banner-item {
+    margin-bottom: 1rem;
+}
+
+.section-banner .image-banner {
+    transition: transform .3s ease-out;
+    position: relative;
+}
+
+.section-banner .image-banner img {
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-banner .image-banner .content-banner {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    padding: 0 5rem;
+}
+
+.content-banner .banner-title {
+    font-size: 24px;
+}
+
+.section-banner .banner-title {
+    font-weight: 700;
+    transition: top .5s ease,transform .5s;
+    margin: 0;
+    min-height: 6.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-banner .button-name {
+    display: flex;
+    align-items: center;
+}
+
+.button-name > a {
+    background-color: #3bb77e;
+    padding: 8px 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.button-text {
+    font-size: 12px;
+    font-weight: 700px;
+    color: white;
+}
+
+.section-banner .button-icon svg {
+    width: 1rem;
+    margin-left: 0.3rem;
+    vertical-align: text-bottom;
+    transition-duration: .3s;
+}
+
+.button-name a svg {
+    fill: #ffffff;
+}
+
+.button-name a:hover {
+    background-color: #fdc040;
+}
+
+@media (min-width: 992px){
+    .grid-3 .grid-item {
+       width: calc(33.333333333333336% - 30px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .grid-tablet-2 .grid-item {
+        width: calc(50.0% - 30px)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-section {
+        padding-bottom: 20px;
+    }
+}
