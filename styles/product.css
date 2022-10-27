@@ -1,0 +1,231 @@
+.product-detail-section {
+    margin-top: 40px;
+}
+
+.main-product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-gallery {
+    width: 55%;
+    margin-right: 40px;
+}
+
+.product-gallery .product-media-box {
+    position: relative;
+}
+
+.product-gallery .media-preview-wrap {
+    position: relative;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.product-gallery .media-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-summary {
+    width: calc(45% - 40px);
+    margin-bottom: 3rem;
+}
+
+.summary-item {
+    padding-bottom: 20px;
+}
+
+.product-summary .product-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.product-summary .price {
+    padding-bottom: 20px;
+}
+
+.product-price-wrap .product-price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-price .price {
+    font-size: 58px;
+    font-weight: 700;
+    color: rgb(59, 183, 126);
+}
+
+.product-price-wrap .price-percent-sale {
+    margin-left: 1.5em;
+}
+
+.product-price-wrap .product-sale-label {
+    color: rgb(253, 192, 64);
+    font-weight: 700;
+}
+
+.product-sale-label-top span {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(245, 75, 129);
+    background-color: rgb(253, 224, 233);
+}
+
+.product-price-wrap .price-percent-sale s.regular-price {
+    display: block;
+    margin-left: 0;
+    line-height: 1;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(173, 173, 173);
+}
+
+.summary-item .pickup-availability {
+    padding-bottom: 20px;
+}
+
+.pickup-availability .pickup-availability-info {
+    display: flex;
+    align-items: baseline;
+}
+
+.pickup-availability .pickup-availability-info svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+}
+
+.pickup-availability .pickup-availability-info-inner {
+    margin-left: 1rem;
+}
+
+.pickup-availability .pickup-availability-info-title {
+    color: rgb(37, 61, 78);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pickup-availability-stock {
+    margin: 0 0 10px;
+}
+
+.pickup-availability .toggle-modal {
+    padding: 0;
+    background-color: transparent;
+    color: rgb(59, 183, 126);
+    border: 0;
+    font-size: 16px;
+}
+
+.summary-item .description {
+    padding-bottom: 43px;
+}
+
+.summary-item .add-to-cart {
+    padding-bottom: 20px;
+}
+
+.product-summary .adtocart-action {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-summary .item-field {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.product-summary .field-title {
+    flex: 0 0 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 70px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: rgb(37, 61, 78);
+}
+
+.product-summary .adtocart-action {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-summary .add-to-cart-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: 160px;
+    padding: 0 15px;
+    height: 50px;
+    position: relative;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+.primary-button {
+    color: white;
+    background-color: rgb(59, 183, 126);
+}
+
+.product-summary .add-to-cart-button svg {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product-summary .product-actions .product-action {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: rgb(37, 61, 78);
+}
+.product-summary .product-actions .action-icon {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.product-summary .product-information {
+    color: rgb(59, 183, 126);
+    text-decoration: none;
+}
+
+.product-summary .product-actions .action-icon svg {
+    width: 18px;
+    height: auto;
+    fill: rgb(126, 126, 126);
+}
+
+.product-summary .product-information .info-item {
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+.product-summary .product-information .info-name {
+    font-weight: 500;
+    display: inline-block;
+    color: rgb(126, 126, 126);
+    font-size: 13px;
+    margin-right: 5px;
+}
+.product-summary .product-information a {
+    color: rgb(59, 183, 126);
+    text-decoration: none;
+}
+
+.product-summary .product-information .product-tags {
+    color: rgb(59, 183, 126);
+}

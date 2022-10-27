@@ -1,0 +1,106 @@
+.section-info {
+    padding-top: 0px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.infor-wrapper {
+    margin: 0 132px;
+}
+
+.section-info .info-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grid {
+    margin: 0 -15px;
+    min-height: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.grid-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+
+.grid-2 .grid-item {
+    width: calc(50% - 30px);
+}
+
+.info-item img {
+    width: 700px;
+    max-width: 100%;
+}
+
+.section-info .content-padding {
+    padding: 0 2rem;
+}
+
+.section-info .title {
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.description {
+    font-size: 16px;
+    color: #7E7E7E;
+}
+
+/* What we provide  section style */
+
+
+.section-icon-box .info-top {
+    margin-bottom: 4.2rem;
+}
+
+.section-icon-box .info-top .title {
+    font-weight: 700;
+    letter-spacing: .05rem;
+    margin: unset;
+    font-size: 40px;
+}
+
+.grid-3 .grid-item {
+    width: calc(33% - 30px);
+}
+
+.section-icon-box .icon-box .icon-item {
+    margin-bottom: 2rem;
+    align-items: flex-end;
+}
+
+.section-icon-box .iconbox-item.layout-1 .icon-box .icon-item {
+    padding: 50px 30px;
+    border-radius: 15px;
+    border: 0.05rem solid #ececec;
+}
+
+.info-icon h4 {
+    font-size: 24px;
+    padding-bottom: 26px;
+}
+
+.section-icon-box .iconbox-item.layout-1 .icon-box .info-icon .text {
+    margin: 0;
+    letter-spacing: .05rem;
+    font-weight: 700;
+}
+
+.button-name {
+    color: #3bb77e;
+    font-size: 16px;
+}
+
+.section-icon-box .iconbox-item.layout-1 .icon-box .info-icon .sub-text {
+    margin-bottom: 27px;
+    line-height: 1.5;
+    font-size: 17px;
+}
