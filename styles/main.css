@@ -12,7 +12,6 @@
 
 .wrapper {
     display: flex;
-    overflow: -moz-scrollbars-none;
     overflow-x: scroll;
 }
 
@@ -40,11 +39,6 @@
     flex-shrink: 0
 }
 
-@media screen and (max-width: 990px) {
-    .wrapper > .card-item {
-        width: 304px;
-    }
-}
 
 .card-item > a {
     text-decoration: none;
@@ -63,6 +57,11 @@
     width: 80px;
 }
 
+@media screen and (max-width: 990px) {
+    .wrapper > .card-item {
+        width: 304px;
+    }
+}
 /* Banner Section */
 
 .banner-section {
@@ -317,6 +316,7 @@ a {
     border-radius: 4px;
     transition: all .3s ease 0s;
     cursor: pointer;
+    gap: 8px;
 }
 
 .product-card .add-to-cart-button svg {
